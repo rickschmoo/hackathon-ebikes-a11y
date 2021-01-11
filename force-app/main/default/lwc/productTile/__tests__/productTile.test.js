@@ -64,7 +64,7 @@ describe('c-product-tile', () => {
         element.product = {
             Id: 1,
             Picture_URL__c: 'https://salesforce.com',
-            Name: 'Foo',
+            Name: '',
             MSRP__c: 1000
         };
         document.body.appendChild(element);
